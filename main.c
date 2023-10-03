@@ -59,7 +59,7 @@ int main() {
         }
     }
     int value;
-    printf("Pour consuire un batiment tapez 1\n Pour avoir une information sur une position tapez 2\n Pour sortir tapez 0\n");
+    printf("1. Construire batiment\n2. Information position\n3. Quitter\n");
     scanf("%d",&value);
     while(value != 0){
         if(value == 1){
@@ -73,7 +73,7 @@ int main() {
             Position position = endroit();
             informationBuilding(position);
         }
-        printf("Pour consuire un batiment tapez 1\n Pour avoir une information sur une position tapez 2\n Pour sortir tapez 0\n");
+        printf("1. Construire batiment\n2. Information position\n3. Quitter\n");
         scanf("%d",&value);
         getchar();
     }
