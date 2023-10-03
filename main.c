@@ -16,8 +16,6 @@ typedef struct{
 
 Case grille[10][10];
 
-
-
 void construireBuilding(Position position,char type[10]){
     if(grille[position.y][position.x].estConstruit == 0){
         strcpy(grille[position.y][position.x].typeBatiment,type);
